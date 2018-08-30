@@ -1,0 +1,54 @@
+/*
+                   __  _
+   ________  _____/ /_(_)___  ____  _____
+  / ___/ _ \/ ___/ __/ / __ \/ __ \/ ___/
+ (__  )  __/ /__/ /_/ / /_/ / / / (__  )
+/____/\___/\___/\__/_/\____/_/ /_/____/
+
+ */
+ body {
+
+	background: @base_background;
+	color: @base_foreground;
+	font-family: @base_font_family;
+	font-size: @base_font_size;
+	//
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+section { flex: 1; }
+
+.loading {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+	background: rgba(255, 255, 255, 0.65);
+}
+
+
+/* Site Header */
+/* ---------------------------------------------------------------------------------------------- */
+
+.site-header {
+
+	z-index: 100;
+
+	.hamburger {
+
+		display: block;
+
+		@media (min-width: @breakpoint_tablet) { display: none; }
+	}
+}
+
+/* Site Footer */
+/* ---------------------------------------------------------------------------------------------- */
+
+.site-footer {
+}

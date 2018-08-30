@@ -1,0 +1,44 @@
+html {
+
+	overflow-y: scroll;
+	font-size: 1em;
+	height: 100%;
+}
+
+.animable {
+
+	.opacity(0);
+}
+
+.text-left-responsive {
+
+	text-align: center;
+}
+
+.text-right-responsive {
+
+	text-align: center;
+}
+
+@media (min-width: @breakpoint_tablet) {
+
+	.text-left-responsive {
+
+		text-align: left;
+	}
+
+	.text-right-responsive {
+
+		text-align: right;
+	}
+}
+
+.link-overlay {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}

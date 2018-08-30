@@ -1,0 +1,179 @@
+body {
+
+	font-family: @base_font_family;
+	font-size: @base_font_size;
+	color: @light_foreground;
+	background: @light_background;
+}
+
+p {
+
+	line-height: 1.5;
+	margin: 0 0 5px;
+}
+
+h1, h2, h3, h4 {
+
+	font-family: @title_font_family;
+	font-weight: inherit;
+	line-height: 1.2;
+	margin: 0 0 5px;
+}
+
+h1 { font-size: @h1_size; }
+h2 { font-size: @h2_size; }
+h3 { font-size: @h3_size; }
+h4 { font-size: @h4_size; }
+
+.button-primary, .button-selected { .button-style(@brand_1); }
+
+.shadow-box {
+
+	background-color: white;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.07), 0 3px 1px -2px rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.06);
+}
+
+.progress-bar {
+
+	background-color: #C5C5C5;
+	height: 10px;
+	border-radius: 100px;
+
+	.progress-portion {
+
+		height: 100%;
+		border-bottom-left-radius: 100px;
+		border-top-left-radius: 100px;
+		background-color: @brand_1;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
+
+.avatar {
+
+	border-radius: 1000px;
+	border: 2px solid #EEE;
+}
+
+/* Header */
+/* ---------------------------------------------------------------------------------------------- */
+
+.site-header {
+
+	background-color: white;
+	box-shadow: 0 3px 5px rgba(0,0,0,.2);
+	height: 95px;
+	z-index: 100;
+	overflow: hidden;
+
+	.site-logo {
+
+		display: block;
+		text-align: center;
+		padding: 20px 0;
+
+		@media (min-width: @breakpoint_tablet) {
+
+			float: left;
+		}
+
+		img {
+
+			width: 270px;
+		}
+	}
+
+	.control-buttons {
+
+		padding: 32px 0;
+		float: right;
+	}
+}
+
+/* Footer */
+/* ---------------------------------------------------------------------------------------------- */
+
+.site-footer {
+
+	background-color: @dark_background;
+	color: @dark_foreground;
+	padding: 50px 0;
+
+	.footer-menu {
+
+
+		h2 {
+
+			font-size: 1.3em;
+			font-weight: 300;
+			margin-bottom: 25px;
+			text-transform: uppercase;
+		}
+
+		.menu {
+
+			color: #959595;
+			margin-bottom: @margin_default;
+
+			li {
+
+				line-height: 1.5;
+				margin-bottom: 3px;
+
+				a {
+
+					color: #959595;
+					.transition(all 500ms);
+
+					&:hover {
+
+						color: @brand_1;
+					}
+				}
+			}
+		}
+	}
+
+	.social-links {
+
+		.menu {
+
+
+			.menu-item {
+
+				.inline-block();
+				margin-right: 8px;
+
+				a {
+
+					display: block;
+					width: 40px;
+					height: 40px;
+					border-radius: 100px;
+					border: 1px solid rgba(255,255,255,0.2);
+					color: rgba(255,255,255,0.2);
+					text-align: center;
+					line-height: 40px;
+				}
+			}
+		}
+	}
+
+	.copyright {
+
+		text-align: center;
+		color: #959595;
+
+		p {
+
+			margin-bottom: 10px;
+		}
+
+		img {
+
+			margin: 0 10px;
+		}
+	}
+}
