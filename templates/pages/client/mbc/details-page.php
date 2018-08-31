@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>New Project</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-	<link rel="stylesheet/less" type="text/css" href="assets/styles/site.less" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" type="text/javascript"></script>
-	<script src="assets/scripts/class.js" type="text/javascript"></script>
-	<script src="assets/scripts/plugins.min.js" type="text/javascript"></script>
-	<script src="assets/scripts/site.js" type="text/javascript"></script>
-</head>
-<body class="the-content">
-	<header class="site-header">
-		<div class="action-bar">
-			<div class="row row-md row-collapse">
-				<div class="col col-6 col-md-6">
-					<div class="">
-						<img class="header-logo" src="/SUCBeta/assets/images/branding/logo-white.svg" alt="Growth Institute">
-					</div>
-				</div>	
-				<div class="col col-6 col-md-6">
-					<div class="bar-buttons">
-						<a href="#" class="button button-secondary" title="Logout"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">Logout</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-    </header>
+<?php $this->partial('header-html'); ?>
+    <?php $this->partial('header'); ?>
     <div class="action-bar">
 			<div class="inner">
 				<div class="margins-horz">
@@ -131,5 +99,5 @@
                     </div>
                 </div>
             </section>
-</body>
-</html>    
+        <?php $this->partial('footer'); ?>
+<?php $this->partial('footer-html'); ?>

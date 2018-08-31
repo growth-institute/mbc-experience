@@ -56,6 +56,15 @@
 			#
 			return $response->respond();
 		}
+		function detailAction($id) {
+			global $site;
+			$request = $site->getRequest();
+			$response = $site->getResponse();
+			#
+			$site->render('client/mbc/details-page');
+			#
+			return $response->respond();
+		}
 		function moduleAction($id) {
 			global $site;
 			$request = $site->getRequest();
