@@ -14,13 +14,8 @@
 						<div class="col col-6 col-md-6">
 							<div class="bar-buttons">
 								<span> 
-<<<<<<< HEAD
-									Slack chat <a target='blank' href="https://join.slack.com/t/scalingupclub-beta/shared_invite/enQtNDI3Nzc0NTQyMTI5LTljNjYyN2E5N2VmNGYyNjY4ZGRlZmNlYzhmMTRhNWFmZTM3OWI1YWNmYmZlMjc4ODY1MmJkOTJmMzY0ZjQxODA" class=""><img class="" src="/SUCBeta/assets/images/branding/slack.ico" alt="Growth Institute"></a>    
+									Slack chat <a target='blank' href="https://join.slack.com/t/scalingupclub-beta/shared_invite/enQtNDI3Nzc0NTQyMTI5LTljNjYyN2E5N2VmNGYyNjY4ZGRlZmNlYzhmMTRhNWFmZTM3OWI1YWNmYmZlMjc4ODY1MmJkOTJmMzY0ZjQxODA"  class=""><img class="" src="<?php $site->img('branding/slack.ico');?>" alt="Growth Institute"></a>    
 									<a href="http://localhost/mbc-experience/mbc/detail/scaling-up-mbc/" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">ACCESS PLANS</span></a>
-=======
-									Slack <a href="#" class=""><img class="" src="<?php $site->img('branding/slack.ico');?>" alt="Growth Institute"></a>    
-									<a href="/sucbeta/PlansPage.html" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">ACCESS PLANS</span></a>
->>>>>>> 1cf660d0ea99ce4591e9a223e5af02e2505c2969
 								</span>
 							</div>
 						</div>
