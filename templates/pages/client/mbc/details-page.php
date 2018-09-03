@@ -1,6 +1,6 @@
 <?php $this->partial('header-html'); ?>
-    <?php $this->partial('header'); ?>
-    <div class="action-bar">
+	<?php $this->partial('header'); ?>
+	<div class="action-bar">
 			<div class="inner">
 				<div class="margins-horz">
 					<div class="row row-md">
