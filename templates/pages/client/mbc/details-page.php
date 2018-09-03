@@ -1,6 +1,6 @@
 <?php $this->partial('header-html'); ?>
-    <?php $this->partial('header'); ?>
-    <div class="action-bar">
+	<?php $this->partial('header'); ?>
+	<div class="action-bar">
 			<div class="inner">
 				<div class="margins-horz">
 					<div class="row row-md">
@@ -23,81 +23,81 @@
 			</div>
 		</div>
 
-    <section class="section section-faq">
-            <div class="block block-faq">
-                <div class="inner boxfix-vert">
-                    <div class="margins">
-                        <h1 class="block-title">Implementation Plans</h1>
-                        <div class="block-introduction">
-                            <p>Vivamus placerat tellus eu mollis laoreet. Nullam laoreet ut est ac rhoncus. Etiam molestie odio id justo sodales iaculis. </p>
-                        </div>
+	<section class="section section-faq">
+			<div class="block block-faq">
+				<div class="inner boxfix-vert">
+					<div class="margins">
+						<h1 class="block-title">Implementation Plans</h1>
+						<div class="block-introduction">
+							<p>Vivamus placerat tellus eu mollis laoreet. Nullam laoreet ut est ac rhoncus. Etiam molestie odio id justo sodales iaculis. </p>
+						</div>
 
-                        <div class="list-questions">
-                            
-                                <div class="question">
-                                    <h4 class="js-question question-title"> October 2018 - 'Influence' with Dr Robert Cialdini <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                    <div class="question-answer">
-                                        <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                    </div>
-                                </div>
+						<div class="list-questions">
+							
+								<div class="question">
+									<h4 class="js-question question-title"> October 2018 - 'Influence' with Dr Robert Cialdini <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+									<div class="question-answer">
+										<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+									</div>
+								</div>
 
-                            
-                                <div class="question">
-                                    <h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                    <div class="question-answer">
-                                        <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                    </div>
-                                </div>
+							
+								<div class="question">
+									<h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+									<div class="question-answer">
+										<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+									</div>
+								</div>
 
-                            
-                                <div class="question">
-                                    <h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                    <div class="question-answer">
-                                        <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-faq">
-                <div class="block block-faq">
-                    <div class="inner boxfix-vert">
-                        <div class="margins">
-                            <h1 class="block-title"></h1>
-                            <div class="block-introduction">
-                                <p> </p>
-                            </div>
-    
-                            <div class="list-questions">
-                                
-                                    <div class="question">
-                                        <h4 class="js-question question-title"> September 2018 - 'Hooked' with Nir Eyal <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                        <div class="question-answer">
-                                            <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                        </div>
-                                    </div>
-    
-                                
-                                    <div class="question">
-                                        <h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                        <div class="question-answer">
-                                            <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                        </div>
-                                    </div>
-    
-                                
-                                    <div class="question">
-                                        <h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
-                                        <div class="question-answer">
-                                            <p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        <?php $this->partial('footer'); ?>
+							
+								<div class="question">
+									<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+									<div class="question-answer">
+										<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section-faq">
+				<div class="block block-faq">
+					<div class="inner boxfix-vert">
+						<div class="margins">
+							<h1 class="block-title"></h1>
+							<div class="block-introduction">
+								<p> </p>
+							</div>
+	
+							<div class="list-questions">
+								
+									<div class="question">
+										<h4 class="js-question question-title"> September 2018 - 'Hooked' with Nir Eyal <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+										<div class="question-answer">
+											<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+										</div>
+									</div>
+	
+								
+									<div class="question">
+										<h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+										<div class="question-answer">
+											<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+										</div>
+									</div>
+	
+								
+									<div class="question">
+										<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+										<div class="question-answer">
+											<p> molestie ante tempor non. Nullam odio ipsum, vehicula non ex et, consectetur euismod velit.</p>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<?php $this->partial('footer'); ?>
 <?php $this->partial('footer-html'); ?>
