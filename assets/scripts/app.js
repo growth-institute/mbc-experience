@@ -43,6 +43,15 @@ App = Class.extend({
 			};
 			$('body')[0].appendChild(script);
 		}
+		$('.js-question').on('click',function(event){
+			event.preventDefault();var el=$(this);
+			currentQuestion=el.closest('.question'),
+			currentAnswer=el.siblings('.question-answer'),
+			otherQuestions=currentQuestion.siblings('.question'),
+			otherAnswers=otherQuestions.find('.question-answer');
+			currentAnswer.slideDown();currentQuestion.addClass('is-open');
+			otherAnswers.slideUp();otherQuestions.removeClass('is-open');
+		});
 	},
 	errorString: function(str) {
 		return str;
