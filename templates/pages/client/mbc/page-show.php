@@ -28,12 +28,14 @@
 								</div>
 								<div class="col col-md-4">
 									<aside class="product-sidebar">
-										<div class="product-progress">
-											<h1 class="section-title"><?php sanitized_print($product->name); ?> <small class="text-muted">(<?php percent_print( $product->getCompletion(1) ); ?> Complete)</small></h1>
-											<div class="progress-bar" data-progress="<?php percent_print( $product->getCompletion(1) ); ?>">
-												<span class="progress-portion"></span>
+										<?php if(!$product->getMeta('hide_progress')): ?>
+											<div class="product-progress">
+												<h1 class="section-title"><?php sanitized_print($product->name); ?> <small class="text-muted">(<?php percent_print( $product->getCompletion(1) ); ?> Complete)</small></h1>
+												<div class="progress-bar" data-progress="<?php percent_print( $product->getCompletion(1) ); ?>">
+													<span class="progress-portion"></span>
+												</div>
 											</div>
-										</div>
+										<?php endif; ?>
 
 										<nav class="product-menu">
 											<ul class="item-list">
@@ -58,18 +60,20 @@
 				</div>
 			</div>
 
-			<div class="community-area">
-				<div class="inner boxfix-vert">
-					<div class="margins">
-						<div class="the-content">
+			<?php if(!$product->getMeta('hide_discourse')): ?>
+				<div class="community-area">
+					<div class="inner boxfix-vert">
+						<div class="margins">
+							<div class="the-content">
 
-							<div class="discourse-area">
-								<a id="load-topics" href="<?php $site->urlTo('/discourse/topics/5.json', true); ?>" class="js-discourse-fetch"></a>
+								<div class="discourse-area">
+									<a id="load-topics" href="<?php $site->urlTo('/discourse/topics/5.json', true); ?>" class="js-discourse-fetch"></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			<?php endif; ?>
 		</section>
 
 		<script type="text/template" id="partial-discourse-topics">
