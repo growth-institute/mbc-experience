@@ -16,7 +16,7 @@
 								<div class="bar-buttons">
 									<span>
 										Slack chat <a target='blank' href="https://join.slack.com/t/scalingupclub-beta/shared_invite/enQtNDI3Nzc0NTQyMTI5LTljNjYyN2E5N2VmNGYyNjY4ZGRlZmNlYzhmMTRhNWFmZTM3OWI1YWNmYmZlMjc4ODY1MmJkOTJmMzY0ZjQxODA"  class=""><img class="" src="<?php $site->img('branding/slack.ico');?>" alt="Growth Institute"></a>
-										<a href="http://localhost/mbc-experience/mbc/detail/scaling-up-mbc/" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">ACCESS PLANS</span></a>
+										<a href="<?php $site->urlTo('/mbc/detail/scaling-up-mbc', true); ?>" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">ACCESS PLANS</span></a>
 									</span>
 								</div>
 							</div>
@@ -36,7 +36,7 @@
 									<div class="metabox-body">
 										<div class="row row-md">
 											<div class="col col-6 col-md-6 show-mobile">
-												<img class="img-responsive" src="<?php $site->img('branding/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('branding/img-suc1.png'); ?>" alt="Growth Institute">
 											</div>
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
@@ -45,7 +45,7 @@
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
-												<img class="img-responsive" src="<?php $site->img('branding/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('branding/img-suc1.png'); ?>" alt="Growth Institute">
 											</div>
 										</div>
 									</div>

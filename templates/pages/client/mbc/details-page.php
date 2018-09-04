@@ -14,7 +14,7 @@
 							<div class="bar-buttons">
 								<span> 
 									Slack chat <a target='blank' href="https://join.slack.com/t/scalingupclub-beta/shared_invite/enQtNDI3Nzc0NTQyMTI5LTljNjYyN2E5N2VmNGYyNjY4ZGRlZmNlYzhmMTRhNWFmZTM3OWI1YWNmYmZlMjc4ODY1MmJkOTJmMzY0ZjQxODA" class=""><img class="" src="<?php $site->img('branding/slack.ico');?>" alt="Growth Institute"></a>    
-									<a href="http://localhost/mbc-experience/mbc/landing/scaling-up-mbc/" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">DASHBOARD</span></a>
+									<a href="<?php $site->urlTo('/mbc/landing/scaling-up-mbc', true); ?>" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">DASHBOARD</span></a>
 								</span>
 							</div>
 						</div>
