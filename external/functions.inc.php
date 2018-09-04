@@ -28,7 +28,7 @@
 	$site->registerStyle('reset', 'reset.css', false );
 	$site->registerStyle('plugins', 'plugins/plugins.css', false );
 	$site->registerStyle('simplemde', 'plugins/video-js.css', false );
-	$site->registerStyle('videojs', 'http://vjs.zencdn.net/6.4.0/video-js.css', true );
+	$site->registerStyle('videojs', 'https://vjs.zencdn.net/6.4.0/video-js.css', true );
 	$site->registerStyle('print', 'print.css', false, array(), array('media' => 'print') );
 	$site->registerStyle('site', 'site.less', false, array('reset', 'google-fonts', 'font-awesome', 'plugins', 'simplemde', 'videojs') );
 	$site->enqueueStyle('site');
@@ -39,7 +39,7 @@
 	$site->registerScript('underscore', 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js', true);
 	$site->registerScript('marked', 'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js', true);
 	$site->registerScript('simplemde', 'https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js', true);
-	$site->registerScript('videojs', 'http://vjs.zencdn.net/6.4.0/video.js', true);
+	$site->registerScript('videojs', 'https://vjs.zencdn.net/6.4.0/video.js', true);
 	$site->registerScript('videojs-vimeo', 'videojs-vimeo.js', false);
 
 	$site->registerScript('class', 'class.js', false, array('jquery', 'underscore'));
@@ -47,7 +47,8 @@
 	$site->registerScript('app', 'app.js', false, array('class'));
 	$site->registerScript('module', 'module.js', false, array('class'));
 
-	$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs', 'videojs-vimeo'));
+	//$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs', 'videojs-vimeo'));
+	$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs'));
 
 	# General meta tags
 	$site->addMeta('UTF-8', '', 'charset');

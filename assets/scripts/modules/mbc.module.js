@@ -18,6 +18,7 @@ ModuleMBC = Module.extend({
 		obj.templates.discourseTopic = client.compileTemplate('#partial-discourse-topic');
 
 		obj.templates.blockFile = client.compileTemplate('#partial-block-file');
+		obj.templates.blockMeeting = client.compileTemplate('#partial-block-meeting');
 
 		obj.sidebarHeight();
 		$(window).on('resize', function() {
@@ -100,6 +101,9 @@ ModuleMBC = Module.extend({
 								break;
 								case 'Live Session':
 									obj.setLiveSessionBlock(container, data.block);
+								break;
+								case 'Meeting':
+									obj.setMeetingBlock(container, data.block);
 								break;
 							}
 						}
@@ -287,6 +291,10 @@ ModuleMBC = Module.extend({
 	setLiveSessionBlock: function(container, block) {
 		var obj = this;
 		console.log('TBD: Set Live Session block content');
+	},
+	setMeetingBlock: function(container, block) {
+		var obj = this;
+		container.html( obj.templates.blockMeeting({ block: block }) );
 	},
 	checkAttachments: function() {
 		var obj = this;

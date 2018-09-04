@@ -220,25 +220,13 @@
 			</div>
 		</script>
 
-		<script type="text/template" id="partial-block-file">
+		<script type="text/template" id="partial-block-meeting">
 			<div class="box box-unit">
-				<h2>Download the following files</h2>
-				<%= marked(block.metas['file_content'] || 'iframe') %>
+				<h2>Join our meeting</h2>
 			</div>
-			<div class="unit-attachments boxfix-vert">
+			<div class="unit-meeting-info boxfix-vert">
 				<div class="margins">
-					<div class="row row-sm row-10">
-						<% _.each(block.metas['file_attachments'] || [], function(attachment) { %>
-							<div class="col col-sm-6 col-md-3">
-								<div class="attachment">
-									<i class="fa fa-fw fa-cloud-download attachment-icon"></i>
-									<span class="attachment-name">Checking file...</span>
-									<span class="attachment-size">0 KB</span>
-									<a href="#" class="link-overlay attachment-link" title="" data-block="<%= block.id %>" data-attachment="<%= attachment %>"></a>
-								</div>
-							</div>
-						<% }); %>
-					</div>
+					<p class="text-center"><a href="<%= block.metas.meeting_link %>" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Join the meeting</a></p>
 				</div>
 			</div>
 		</script>
