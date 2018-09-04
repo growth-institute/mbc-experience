@@ -2,7 +2,7 @@
 	<?php $this->partial('header'); ?>
 
 		<section class="section section-course-info">
-			<?php $this->partial('mbc/navigation', ['product' => $product]); ?>
+			<?php $this->partial('mbc/navigation', ['product' => $product, 'title' => 'Access Plans', 'url' => $site->urlTo("/mbc/{$product->slug}/details") ]); ?>
 
 			<div class="block block-content">
 				<div class="inner boxfix-vert">
@@ -50,21 +50,11 @@
 												<div class="item-name">
 													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-learn", true); ?>">WEEK 1 - LEARN</a>
 												</div>
-												<div class="item-details">
-													<div class="details">
-														<span class="details-name">WEEK 1 - LEARN</span>
-													</div>
-												</div>
 											</div>
 
 											<div class="item item-module">
 												<div class="item-name">
 													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-plan", true); ?>">WEEK 2 - PLAN</a>
-												</div>
-												<div class="item-details">
-													<div class="details">
-														<span class="details-name">WEEK 2 - PLAN</span>
-													</div>
 												</div>
 											</div>
 
@@ -72,21 +62,11 @@
 												<div class="item-name">
 													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">WEEK 3 - ENGAGE</a>
 												</div>
-												<div class="item-details">
-													<div class="details">
-														<span class="details-name">WEEK 3 - ENGAGE</span>
-													</div>
-												</div>
 											</div>
 
 											<div class="item item-module">
 												<div class="item-name">
 													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">WEEK 4 - IMPLEMENT</a>
-												</div>
-												<div class="item-details">
-													<div class="details">
-														<span class="details-name">WEEK 4 - IMPLEMENT</span>
-													</div>
 												</div>
 											</div>
 										</div>
