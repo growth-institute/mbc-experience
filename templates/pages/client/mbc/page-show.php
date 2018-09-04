@@ -2,6 +2,8 @@
 	<?php $this->partial('header'); ?>
 
 		<section class="section section-mbc">
+			<?php $this->partial('mbc/navigation', ['product' => $product]); ?>
+
 			<div class="product-area">
 				<div class="inner boxfix-vert">
 					<div class="margins">

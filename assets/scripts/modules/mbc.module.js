@@ -2,11 +2,13 @@ ModuleMBC = Module.extend({
 	templates: {},
 	discourseUser: null,
 	sidebarHeight: function() {
-
 		$('.product-sidebar .product-menu').height( ($('.product-area .unit-content').height() + $('.product-area .unit-footnotes').outerHeight() + 10) - $('.product-sidebar .product-progress').outerHeight() );
 	},
+	videojsPlayer: null,
 	onDomReady: function($) {
 		var obj = this;
+
+		//console.log(hash);
 
 		obj.templates.list = client.compileTemplate('#partial-list');
 		obj.templates.listItem = client.compileTemplate('#partial-list-item');
@@ -31,17 +33,19 @@ ModuleMBC = Module.extend({
 			progressPortion.animate({ width: progress });
 		});
 
-		$.ajax({
-			url: 'https://discourse.growthinstitute.com/session/current.json',
-			type: 'GET',
-			dataType: 'json',
-			xhrFields: { withCredentials: true },
-			success: function(data) {
+		if($('.community-area').length) {
 
-				console.log(data);
-				obj.discourseUser = data.current_user;
-			}
-		});
+			$.ajax({
+				url: 'https://discourse.growthinstitute.com/session/current.json',
+				type: 'GET',
+				dataType: 'json',
+				xhrFields: { withCredentials: true },
+				success: function(data) {
+
+					obj.discourseUser = data.current_user;
+				}
+			});
+		}
 
 		$('.mbc-show').on('click', '.js-mbc-fetch', function(e) {
 			e.preventDefault();
@@ -189,6 +193,16 @@ ModuleMBC = Module.extend({
 		});
 
 		$('#load-topics').trigger('click');
+
+		//Check Hash to open module
+		var hash = window.location.hash || null;
+
+		if(hash) {
+			$(hash).click();
+		}
+	},
+	uniqueId: function() {
+		return 'id-' + Math.random().toString(36).substr(2, 16);
 	},
 	setVideoBlock: function(container, block) {
 
@@ -198,15 +212,18 @@ ModuleMBC = Module.extend({
 		switch(type) {
 			case 'videojs':
 				var videoLink = block.metas['video_link'],
-					track = '<track kind="captions" src="https://growthinstitute.com/upload/multiplicadores55089c1a7a140.vtt" srclang="es" label="Español" default>'
-				container.html('<video controls id="block-video" class="vjs-default-skin video-js">' + track + '</video>');
+					//track = '<track kind="captions" src="https://growthinstitute.com/upload/multiplicadores55089c1a7a140.vtt" srclang="es" label="Español" default>'
+					track = '',
+					videoId = block.id + '-' + obj.uniqueId();
+				container.html('<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js">' + track + '</video>');
 
-				var player = videojs('block-video', {
+
+				obj.videojsPlayer = videojs('block-video' + videoId, {
 					'sources': [{ 'src': videoLink }],
 					'playbackRates': [ 0.25, 0.5, 1, 2 ]
 				});
 
-				player.ready(function() {
+				obj.videojsPlayer.ready(function() {
 
 					console.log('Video Started');
 
@@ -215,7 +232,7 @@ ModuleMBC = Module.extend({
 						client.ajaxCall({
 							url: constants.siteUrl + 'mbc/video-progress/' + block.id,
 							type: 'post',
-							data: { position: player.currentTime(), video_duration: block.metas['video_duration'] },
+							data: { position: obj.videojsPlayer.currentTime(), video_duration: block.metas['video_duration'] },
 							success: function(data) {
 							},
 							complete: function() {

@@ -2,28 +2,8 @@
 	<?php $this->partial('header'); ?>
 
 		<section class="section section-course-info">
-			<div class="action-bar">
-				<div class="inner">
-					<div class="margins-horz">
-						<div class="row row-md">
-							<div class="col col-md-8">
-								<h2 class="bar-title">
-									<a href="#" class="action-button button-back"><i class="fa fa-fw fa-home"></i></a>
-									<span>Scaling Up Club Beta - Founding Members</span>
-								</h2>
-							</div>
-							<div class="col col-md-4">
-								<div class="bar-buttons">
-									<span>
-										Slack chat <a target='blank' href="https://join.slack.com/t/scalingupclub-beta/shared_invite/enQtNDI3Nzc0NTQyMTI5LTljNjYyN2E5N2VmNGYyNjY4ZGRlZmNlYzhmMTRhNWFmZTM3OWI1YWNmYmZlMjc4ODY1MmJkOTJmMzY0ZjQxODA"  class=""><img class="" src="<?php $site->img('branding/slack.ico');?>" alt="Growth Institute"></a>
-										<a href="http://localhost/mbc-experience/mbc/detail/scaling-up-mbc/" class="button button-primary" title="access_plans"><i class="fa fa-fw fa-sign-out"></i><span class="hide-mobile-inline">ACCESS PLANS</span></a>
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php $this->partial('mbc/navigation', ['product' => $product]); ?>
+
 			<div class="block block-content">
 				<div class="inner boxfix-vert">
 					<div class="margins-horz">
@@ -68,7 +48,7 @@
 										<div class="item-list">
 											<div class="item item-module">
 												<div class="item-name">
-													<a href="#">WEEK 1 - LEARN</a>
+													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-learn", true); ?>">WEEK 1 - LEARN</a>
 												</div>
 												<div class="item-details">
 													<div class="details">
@@ -79,7 +59,7 @@
 
 											<div class="item item-module">
 												<div class="item-name">
-													<a href="#">WEEK 2 - PLAN</a>
+													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-plan", true); ?>">WEEK 2 - PLAN</a>
 												</div>
 												<div class="item-details">
 													<div class="details">
@@ -90,7 +70,7 @@
 
 											<div class="item item-module">
 												<div class="item-name">
-													<a href="#">WEEK 3 - ENGAGE</a>
+													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">WEEK 3 - ENGAGE</a>
 												</div>
 												<div class="item-details">
 													<div class="details">
@@ -101,7 +81,7 @@
 
 											<div class="item item-module">
 												<div class="item-name">
-													<a href="#">WEEK 4 - IMPLEMENT</a>
+													<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">WEEK 4 - IMPLEMENT</a>
 												</div>
 												<div class="item-details">
 													<div class="details">

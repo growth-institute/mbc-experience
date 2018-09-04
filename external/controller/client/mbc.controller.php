@@ -1,6 +1,6 @@
 <?php
 
-	class ClientMbcController extends Controller {
+	class ClientMBCController extends Controller {
 
 		function init() {
 			global $site;
@@ -40,7 +40,20 @@
 				$data = [];
 				$data['product'] = $product;
 				$data['modules'] = $modules;
-				$site->render('client/mbc/page-show', $data);
+
+				if(get_item($request->parts, 2) == 'details') {
+
+					$site->render('client/mbc/page-details', $data);
+
+				} elseif(get_item($request->parts, 2) == 'course') {
+
+					$site->render('client/mbc/page-show', $data);
+
+				} else {
+
+					$site->render('client/mbc/page-landing', $data);
+				}
+
 			} else {
 				$site->redirectTo( $site->urlTo('/error') );
 			}
