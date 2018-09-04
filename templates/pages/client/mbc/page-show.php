@@ -2,7 +2,7 @@
 	<?php $this->partial('header'); ?>
 
 		<section class="section section-mbc">
-			<?php $this->partial('mbc/navigation', ['product' => $product]); ?>
+			<?php $this->partial('mbc/navigation', ['product' => $product, 'title' => 'Dashboard', 'url' => $site->urlTo("/mbc/{$product->slug}/") ]); ?>
 
 			<div class="product-area">
 				<div class="inner boxfix-vert">
