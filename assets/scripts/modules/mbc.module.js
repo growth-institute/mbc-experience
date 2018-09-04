@@ -215,7 +215,8 @@ ModuleMBC = Module.extend({
 					//track = '<track kind="captions" src="https://growthinstitute.com/upload/multiplicadores55089c1a7a140.vtt" srclang="es" label="Español" default>'
 					track = '',
 					videoId = block.id + '-' + obj.uniqueId();
-				container.html('<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js">' + track + '</video>');
+
+				container.html('<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js" poster="' + block.metas.video_poster + '">' + track + '</video>');
 
 
 				obj.videojsPlayer = videojs('block-video' + videoId, {
