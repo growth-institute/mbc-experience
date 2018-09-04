@@ -14,6 +14,11 @@
 										<div class="unit-content">
 											<div class="valign-wrapper">
 												<div class="valign">
+													<?php if($product_image = $product->getMeta('product_image')):?>
+														<p class="text-center">
+															<img clas="img-responsive" src="<?php echo $product_image; ?>" alt="<?php echo $product->name; ?>">
+														</p>
+													<?php endif; ?>
 													<p class="text-muted text-center">Choose a topic from the list to get started</p>
 												</div>
 											</div>
