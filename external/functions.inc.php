@@ -26,8 +26,8 @@
 	$site->registerStyle('google-fonts', get_google_fonts($fonts), true );
 	$site->registerStyle('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', true );
 	$site->registerStyle('reset', 'reset.css', false );
-	$site->registerStyle('plugins', 'plugins.css', false );
-	$site->registerStyle('simplemde', 'video-js.css', false );
+	$site->registerStyle('plugins', 'plugins/plugins.css', false );
+	$site->registerStyle('simplemde', 'plugins/video-js.css', false );
 	$site->registerStyle('videojs', 'http://vjs.zencdn.net/6.4.0/video-js.css', true );
 	$site->registerStyle('print', 'print.css', false, array(), array('media' => 'print') );
 	$site->registerStyle('site', 'site.less', false, array('reset', 'google-fonts', 'font-awesome', 'plugins', 'simplemde', 'videojs') );
