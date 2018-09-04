@@ -28,7 +28,7 @@
 	$site->registerStyle('reset', 'reset.css', false );
 	$site->registerStyle('plugins', 'plugins/plugins.css', false );
 	$site->registerStyle('simplemde', 'plugins/video-js.css', false );
-	$site->registerStyle('videojs', 'http://vjs.zencdn.net/6.4.0/video-js.css', true );
+	$site->registerStyle('videojs', 'https://vjs.zencdn.net/6.4.0/video-js.css', true );
 	$site->registerStyle('print', 'print.css', false, array(), array('media' => 'print') );
 	$site->registerStyle('site', 'site.less', false, array('reset', 'google-fonts', 'font-awesome', 'plugins', 'simplemde', 'videojs') );
 	$site->enqueueStyle('site');
