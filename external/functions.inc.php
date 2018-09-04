@@ -21,7 +21,8 @@
 
 	# Include Google Fonts
 	$fonts = array(
-		'Open Sans' => array(400, '400italic', 700, '700italic')
+		'Open Sans' => array(400, '400italic', 700, '700italic'),
+		'Roboto' => array(400,700,)
 	);
 	$site->registerStyle('google-fonts', get_google_fonts($fonts), true );
 	$site->registerStyle('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', true );
