@@ -35,7 +35,7 @@
 									<div class="metabox-body">
 										<div class="row row-md">
 											<div class="col col-6 col-md-6">
-												<span>THIS WEEK’S FOCUS - LEARN </span>
+												<span>LEADERSHIP // LEARN</span>
 												<p>‘This first week is all about learning a few simple concepts that will make you a more effective leader in the digital age. We’ve broken up Erik’s seminar into a micro-learning format centered around his 5 key habits: Simple, True, Act, Map and People. Watch or listen - however you think you’ll learn best - and make notes as you go along to help shape your implementation plan next week.’</p>
 											</div>
 											<div class="col col-6 col-md-6">
@@ -131,8 +131,7 @@
 											<div class="col col-12 col-md-12">
 												<span>SUC - PLAN </span>
 												<p>
-												The Scaling Up Club is being re-engineered to focus on guided implementation. Each month you will be taken through a process of learning and applying new concepts, broken down into 4 separate weeks of activity: 												
-												</p>
+												The Scaling Up Club is being re-engineered to focus on guided implementation. We want to help you navigate the 4 stages of growth via the 6 core competencies needed to scale. Each month you will be taken through a process of learning and applying new concepts, broken down into 4 separate weeks of activity: 												</p>
 												<p>
 												<ul class='general-list' >
 												<li>
@@ -147,6 +146,8 @@
 												Implement (participate in community discussions about how you’re going to use these concepts in your company).
 												</li>
 												</ul>
+												<br>
+												This month’s core competency is Leadership.
 												</p>
 											</div>
 										</div>
@@ -172,8 +173,7 @@
 											<h4 class="js-question question-title">  What is a beta program? <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 											<div class="question-answer">
 												<p>
-												The beta program is an early access period for a select group of users, prior to the main launch at the end of the year. It gives us a chance to run some experiments on the usability and efficacy of the new Success Path, and provides our founding members with discounted access for life in return for their help in the early days. 
-												</p>
+												The beta program is an early access period for a select group of users, prior to the main launch at the end of the year. It gives us a chance to run some experiments on the usability and efficacy of the new Success Path, and provides our founding members with discounted access for life in return for their help in the early days.												</p>
 											</div>
 										</div>
 		
@@ -186,7 +186,22 @@
 												</p>
 											</div>
 										</div>
-		
+
+										<div class="question">
+											<h4 class="js-question question-title"> What are the 4 Stages of Growth? <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+											<div class="question-answer">
+												<p>
+												The 4 stages are Start Up, Grow Up, Scale Up and Industry Domination. Every company goes through these stages!
+											</div>
+										</div>
+
+										<div class="question">
+											<h4 class="js-question question-title">What are the 6 core competencies needed to scale? <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+											<div class="question-answer">
+												<p>
+												The 6 core competencies are Leadership, Strategy, Execution, Sales, Marketing, and Culture.
+											</div>
+										</div>
 									
 										<div class="question">
 											<h4 class="js-question question-title">Can I access a library of all the seminars? <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
