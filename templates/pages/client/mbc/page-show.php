@@ -44,7 +44,11 @@
 														foreach ($modules as $module):
 												?>
 													<li class="item">
-														<a id="<?php sanitized_print($module->slug); ?>" href="<?php $site->urlTo("/mbc/module/{$module->slug}.json", true); ?>" class="item-name js-mbc-fetch"><i class="fa fa-fw fa-folder"></i> <?php sanitized_print($module->name); ?> <small class="text-muted">(<?php percent_print( $module->getCompletion(1) ); ?> Complete)</small></a>
+														<a id="<?php sanitized_print($module->slug); ?>" href="<?php $site->urlTo("/mbc/module/{$module->slug}.json", true); ?>" class="item-name js-mbc-fetch">
+															<i class="fa fa-fw fa-folder"></i>
+															<?php sanitized_print($module->name); ?>
+															<?php if(!$product->getMeta('hide_progress')): ?><small class="text-muted">(<?php percent_print( $module->getCompletion(1) ); ?> Complete)</small><?php endif; ?>
+														</a>
 													</li>
 												<?php
 														endforeach;

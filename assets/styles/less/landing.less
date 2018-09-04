@@ -5,11 +5,6 @@ h1, h2, h3, h4, h5, h6,
 	font-weight: 400;
 }
 
-h1, .h1 { font-size: 2.441em; }
-h2, .h2 { font-size: 1.953em; }
-h3, .h3 { font-size: 1.563em; }
-h4, .h4 { font-size: 1.25em;  }
-
 .text-left-responsive { text-align: center; }
 .text-right-responsive { text-align: center; }
 
@@ -148,11 +143,6 @@ h4, .h4 { font-size: 1.25em;  }
 
 		padding: @margin_default;
 
-		.item-name {
-
-			font-size: 1.25em;
-		}
-
 		.item-details {
 
 			color: white;
@@ -237,7 +227,6 @@ h4, .h4 { font-size: 1.25em;  }
 		}
 	}
 }
-
 
 .table-wrapper {
 
@@ -360,62 +349,43 @@ h4, .h4 { font-size: 1.25em;  }
 	}
 }
 
-.general-list {
-	padding-left: 15px;
-}
+.block-faq {
 
-.block-faq{
-	padding: 40px 0;
-	background: #EEE;
-}
+	.list-questions {
 
-.block-faq .list-questions .question{
-	margin-bottom: 2px
-}
+		.question {
 
-.block-faq .list-questions .question .question-title{
-	background: white;
-	padding: 15px;
-	margin-bottom: 1px
-}
+			margin-bottom: 2px;
 
-.block-faq .list-questions .question .question-title .question-button{
-	position: absolute;
-	right: 0;
-	top: 0;
-	font-size: 1.5em;
-	width: 48px;
-	line-height: 48px;
-	text-align: center
-}
-.block-faq .list-questions .question .question-title .question-button.button-down{
-	display: none
-}
-.block-faq .list-questions .question .question-answer{
-	background: white;
-	padding: 15px;
-	line-height: 1.5;
-	display: none
-}
-.block-faq .list-questions .question.is-open .question-title .button-down{
-	display: block
-}
-.block-faq .list-questions .question.is-open .question-title .button-right{
-	display: none
-}
-.block-inner-splash{
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-top: 15%
-}
-.page-faq .block-faq{
-	padding: 60px 0;
-	background: white
-}
-.page-faq .block-faq .list-questions .question .question-title{
-	background: #F7F7F7
-}
-.page-faq .block-faq .list-questions .question .question-answer{
-	background: #F7F7F7
+			.question-title {
+
+				background: white;
+				padding: 15px;
+				margin-bottom: 1px;
+
+				.question-button {
+
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 48px;
+					line-height: 48px;
+					text-align: center;
+
+					&.button-down { display: none; }
+				}
+			}
+
+			.question-answer {
+
+				background: white;
+				padding: 15px;
+				line-height: 1.5;
+				display: none
+			}
+
+			.question.is-open .question-title .button-down { display: block; }
+			.question.is-open .question-title .button-right { display: none; }
+		}
+	}
 }
