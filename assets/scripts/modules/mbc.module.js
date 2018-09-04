@@ -216,10 +216,9 @@ ModuleMBC = Module.extend({
 					track = '',
 					videoId = block.id + '-' + obj.uniqueId(),
 					videoPoster = typeof block.metas.video_poster !== undefined ? 'poster="' + block.metas.video_poster + '"' : '';
+					containerHTML = '<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js" ' + videoPoster + '>' + track + '</video>';
 
-				console.log('<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js" ' + videoPoster + '">' + track + '</video>');
-
-				container.html('<video controls id="block-video' + videoId + '" class="vjs-default-skin video-js" ' + videoPoster + '">' + track + '</video>');
+				container.html(containerHTML);
 
 
 				obj.videojsPlayer = videojs('block-video' + videoId, {

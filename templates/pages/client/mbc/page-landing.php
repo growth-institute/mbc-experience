@@ -16,7 +16,7 @@
 									<div class="metabox-body">
 										<div class="row row-md">
 											<div class="col col-6 col-md-6 show-mobile">
-												<img class="img-responsive" src="<?php $site->img('template/mbc/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('template/mbc/img-suc1.png'); ?>" alt="Growth Institute">
 											</div>
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
@@ -25,7 +25,7 @@
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
-												<img class="img-responsive" src="<?php $site->img('template/mbc/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('template/mbc/img-suc1.png'); ?>" alt="Growth Institute">
 											</div>
 										</div>
 									</div>
@@ -39,7 +39,7 @@
 				<div class="inner boxfix-vert">
 					<div class="margins-horz">
 						<div class="row row-md">
-							<div class="col col-6 col-md-6">
+							<div class="col col-7 col-md-6">
 								<div class="metabox">
 									<div class="metabox-header">
 										<span>Weeks</span>
@@ -93,8 +93,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col col-6 col-md-6">
-								<h4>CALENDAR</h4>
+							<div class="col col-5 col-md-6">
+								<img class="img-responsive margin-bottom" src="<?php $site->img('template/mbc/calendar-suc.png'); ?>" alt="Growth Institute">
 							</div>
 						</div>
 					</div>
