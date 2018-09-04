@@ -115,7 +115,7 @@
 					#
 					$parent_taxonomy = Taxonomies::getById($taxonomy->id_parent);
 					#
-					$taxonomy->children = Blocks::allByIdCategory($taxonomy->id);
+					$taxonomy->children = Blocks::allByIdCategory($taxonomy->id, ['conditions' => ' AND status = "Published"']);
 					# Save event
 					$params = [];
 					$params['category'] = 'mbc';
