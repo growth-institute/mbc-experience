@@ -2,7 +2,7 @@
 	<?php $this->partial('header'); ?>
 
 		<section class="section section-mbc">
-			<?php $this->partial('mbc/navigation', ['product' => $product]); ?>
+			<?php $this->partial('mbc/navigation', ['product' => $product, 'title' => 'Dashboard', 'url' => $site->urlTo("/mbc/{$product->slug}/") ]); ?>
 
 			<div class="product-area">
 				<div class="inner boxfix-vert">
@@ -226,7 +226,7 @@
 			</div>
 			<div class="unit-meeting-info boxfix-vert">
 				<div class="margins">
-					<p class="text-center"><a href="<%= block.metas.meeting_link %>" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Join the meeting</a></p>
+					<p class="text-center"><a href="<%= block.metas.meeting_link %>" target="_blank" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Join the meeting</a></p>
 				</div>
 			</div>
 		</script>
