@@ -220,5 +220,28 @@
 			</div>
 		</script>
 
+		<script type="text/template" id="partial-block-file">
+			<div class="box box-unit">
+				<h2>Download the following files</h2>
+				<%= marked(block.metas['file_content'] || 'iframe') %>
+			</div>
+			<div class="unit-attachments boxfix-vert">
+				<div class="margins">
+					<div class="row row-sm row-10">
+						<% _.each(block.metas['file_attachments'] || [], function(attachment) { %>
+							<div class="col col-sm-6 col-md-3">
+								<div class="attachment">
+									<i class="fa fa-fw fa-cloud-download attachment-icon"></i>
+									<span class="attachment-name">Checking file...</span>
+									<span class="attachment-size">0 KB</span>
+									<a href="#" class="link-overlay attachment-link" title="" data-block="<%= block.id %>" data-attachment="<%= attachment %>"></a>
+								</div>
+							</div>
+						<% }); %>
+					</div>
+				</div>
+			</div>
+		</script>
+
 	<?php $this->partial('footer'); ?>
 <?php $this->partial('footer-html'); ?>

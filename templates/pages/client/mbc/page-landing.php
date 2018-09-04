@@ -16,7 +16,7 @@
 									<div class="metabox-body">
 										<div class="row row-md">
 											<div class="col col-6 col-md-6 show-mobile">
-												<img class="img-responsive" src="<?php $site->img('branding/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('template/mbc/imgSUC1.png'); ?>" alt="Growth Institute">
 											</div>
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
@@ -25,7 +25,7 @@
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
-												<img class="img-responsive" src="<?php $site->img('branding/imgSUC1.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('template/mbc/imgSUC1.png'); ?>" alt="Growth Institute">
 											</div>
 										</div>
 									</div>
@@ -185,7 +185,7 @@
 							<div class="question">
 								<h4 class="js-question question-title">Who can I contact if I have problems or feedback? <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 								<div class="question-answer">
-									<p>Feel free to email the Scaling Up Club Product Owner, Rowan Stanek, with any questions or comments. His email is rowan@growthinstitute.com. You can also contact us in the “Support” channel, inside our community chat in Slack.</p>
+									<p>Feel free to email the Scaling Up Club Product Owner, Rowan Stanek, with any questions or comments. His email is <a href="mailto:rowan@growthinstitute.com">rowan@growthinstitute.com</a>. You can also contact us in the “Support” channel, inside our community chat in Slack.</p>
 								</div>
 							</div>
 						</div>
