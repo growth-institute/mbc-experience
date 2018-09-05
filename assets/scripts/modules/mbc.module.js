@@ -84,7 +84,7 @@ ModuleMBC = Module.extend({
 							console.log('Block');
 							container.empty();
 							container.append('<h2>'+ data.block.name +'</h2>');
-							container.removeClass().addClass('unit-content type-'+ data.block.type.toLowerCase());
+							$('.product-content').removeClass().addClass('product-content type-'+ data.block.type.toLowerCase());
 							$('.unit-footnotes').html( obj.templates.unitFootnotes({ item: data.block }) );
 
 							switch (data.block.type) {
