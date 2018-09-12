@@ -52,6 +52,15 @@ App = Class.extend({
 			currentAnswer.slideDown();currentQuestion.addClass('is-open');
 			otherAnswers.slideUp();otherQuestions.removeClass('is-open');
 		});
+
+		$('.slider').cycle({
+			timeout: 0,
+			slides: '> .slide',
+			prev: '.button-prev',
+			next: '.button-next'
+		});
+
+
 	},
 	errorString: function(str) {
 		return str;

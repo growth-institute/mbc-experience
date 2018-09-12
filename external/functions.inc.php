@@ -40,6 +40,7 @@
 	$site->registerScript('underscore', 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js', true);
 	$site->registerScript('marked', 'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js', true);
 	$site->registerScript('simplemde', 'https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js', true);
+	$site->registerScript('cycle2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js', true);
 	$site->registerScript('videojs', 'https://vjs.zencdn.net/6.4.0/video.js', true);
 	$site->registerScript('videojs-vimeo', 'videojs-vimeo.js', false);
 
@@ -49,7 +50,7 @@
 	$site->registerScript('module', 'module.js', false, array('class'));
 
 	//$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs', 'videojs-vimeo'));
-	$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs'));
+	$site->registerScript('client', 'client.js', false, array('app', 'module', 'plugins', 'marked', 'simplemde', 'jquery.form', 'videojs', 'cycle2'));
 
 	# General meta tags
 	$site->addMeta('UTF-8', '', 'charset');
