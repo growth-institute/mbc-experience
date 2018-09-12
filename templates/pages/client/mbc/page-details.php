@@ -28,12 +28,31 @@
 									<p>See the Seminar <a href="<?php $site->urlTo("/mbc/{$product->slug}", true); ?>" class="button button-primary">here<i class="fa fa-fw fa-angle-right button-right"></i></a></p>
 								</div>
 							</div>
-
-
 							<div class="question">
 								<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 								<div class="question-answer">
-									<p>Future plans here</p>
+
+									<div class="implementation-plans">
+										<div class="slider">
+											<div class="slide">
+												Intro
+											</div>
+											<div class="slide">
+												<div class="embed-responsive">
+													<iframe src="<?php $site->urlTo('/upload/Pago Mamá Agosto.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="embed-responsive">
+													<iframe src="<?php $site->urlTo('/upload/Pago Shai Septiembre 2018 (2).pdf#zoom=100', true); ?>" frameborder="0"></iframe>
+												</div>
+											</div>
+										</div>
+										<div class="slider-navigation">
+											<a href="#" class="button button-prev">Previous Plan</a>
+											<a href="#" class="button button-next">Next Plan</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
