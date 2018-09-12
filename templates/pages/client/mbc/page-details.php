@@ -35,7 +35,7 @@
 									<div class="implementation-plans">
 										<div class="slider">
 											<div class="slide">
-												Intro
+												intro
 											</div>
 											<?php
 												$files = glob($site->baseDir('/upload/*.{pdf}'), GLOB_BRACE);

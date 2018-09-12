@@ -2,7 +2,6 @@
 php_error.log
 web.config
 framework/config.inc.php
-upload/*
 log/*
 .design/*
 assets/styles/site.css
