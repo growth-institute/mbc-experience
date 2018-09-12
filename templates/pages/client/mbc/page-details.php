@@ -37,16 +37,22 @@
 											<div class="slide">
 												Intro
 											</div>
-											<div class="slide">
-												<div class="embed-responsive">
-													<iframe src="<?php $site->urlTo('/upload/Pago Mamá Agosto.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
-												</div>
-											</div>
-											<div class="slide">
-												<div class="embed-responsive">
-													<iframe src="<?php $site->urlTo('/upload/Pago Shai Septiembre 2018 (2).pdf#zoom=100', true); ?>" frameborder="0"></iframe>
-												</div>
-											</div>
+											<?php
+												$files = glob($site->baseDir('/upload/*.{pdf}'), GLOB_BRACE);
+											?>
+											<?php 
+											if ($files):
+												foreach ($files as $file):
+													$file = basename($site->baseDir("/mbc-experience/upload/{$file}"));
+													/*print_a($file);*/
+											?>
+													<div class="slide">
+														<div class="embed-responsive">
+															<iframe src="<?php $site->urlTo("/upload/{$file}#zoom=100", true); ?>" frameborder="0"></iframe>
+														</div>
+													</div>
+												<?php endforeach; ?>
+											<?php endif;?>
 										</div>
 										<div class="slider-navigation">
 											<div class="row row-md row-sm">
