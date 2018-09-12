@@ -35,16 +35,16 @@
 									<div class="implementation-plans">
 										<div class="slider">
 											<div class="slide">
-												Intro
+											<iframe src="<?php $site->urlTo('/upload/Implementation Modern Leadership.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
 											</div>
 											<div class="slide">
 												<div class="embed-responsive">
-													<iframe src="<?php $site->urlTo('/upload/Pago Mamá Agosto.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
+													<iframe src="<?php $site->urlTo('/upload/Modern Leadership - Ann Ralston.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="embed-responsive">
-													<iframe src="<?php $site->urlTo('/upload/Pago Shai Septiembre 2018 (2).pdf#zoom=100', true); ?>" frameborder="0"></iframe>
+													<iframe src="<?php $site->urlTo('/upload/Modern Leadership - Kevin Bundy.pdf#zoom=100', true); ?>" frameborder="0"></iframe>
 												</div>
 											</div>
 										</div>
