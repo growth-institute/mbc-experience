@@ -49,8 +49,16 @@
 											</div>
 										</div>
 										<div class="slider-navigation">
-											<a href="#" class="button button-prev">Previous Plan</a>
-											<a href="#" class="button button-next">Next Plan</a>
+											<div class="row row-md row-sm">
+												<div class="col col-sm-6">
+													<a href="#" class="button button-primary button-prev">Previous Plan</a>
+												</div>
+												<div class="col col-sm-6">
+													<p class="text-right">
+														<a href="#" class="button button-primary button-next">Next Plan</a>
+													</p>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
