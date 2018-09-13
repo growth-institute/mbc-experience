@@ -34,9 +34,6 @@
 
 									<div class="implementation-plans">
 										<div class="slider">
-											<div class="slide">
-												intro
-											</div>
 											<?php
 												$files = glob($site->baseDir('/upload/*.{pdf}'), GLOB_BRACE);
 											?>
@@ -46,9 +43,11 @@
 													$file = basename($site->baseDir("/mbc-experience/upload/{$file}"));
 													/*print_a($file);*/
 											?>
+
 													<div class="slide">
 														<div class="embed-responsive">
-															<iframe src="<?php $site->urlTo("/upload/{$file}#zoom=100", true); ?>" frameborder="0"></iframe>
+															<iframe src="<?php $site->urlTo("/upload/{$file}#zoom=100", true); ?>" frameborder="0">
+															</iframe>
 														</div>
 													</div>
 												<?php endforeach; ?>
