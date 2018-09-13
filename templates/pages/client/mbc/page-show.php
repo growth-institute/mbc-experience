@@ -232,7 +232,7 @@
 			<div class="unit-meeting-info boxfix-vert">
 				<div class="margins">
 					<p class="text-center">
-						<img class="img-responsive" href="<%= block.metas.meeting_image %>">
+						<img class="img-responsive" src="<%= block.metas.meeting_image %>">
 					</p>
 					<p class="text-center"><a href="<%= block.metas.meeting_link %>" target="_blank" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Click here to join the call</a></p>
 				</div>
