@@ -5,21 +5,22 @@
 					<nav class="footer-menu">
 						<h2>Quick Links</h2>
 						<ul class="menu">
-							<li class="menu-item"><a href="#">4D Assessment</a></li>
-							<li class="menu-item"><a href="#">Nedd a business coach?</a></li>
-							<li class="menu-item"><a href="#">FAQ</a></li>
-							<li class="menu-item"><a href="#">Privacy Policy</a></li>
-							<li class="menu-item"><a href="#">Terms of Use</a></li>
-							<li class="menu-item"><a href="#">Download the iPad App</a></li>
+							<li class="menu-item"><a href="https://growthinstitute.com/4d/" target="_blank">4D Assessment</a></li>
+							<li class="menu-item"><a href="https://growthinstitute.com/4d/poll-form" target="_blank">Need a business coach?</a></li>
+							<li class="menu-item"><a href="https://www.growthinstitute.com/faq/">FAQ</a></li>
+							<li class="menu-item"><a href="https://www.growthinstitute.com/privacy-notice/">Privacy Notice</a></li>
+							<li class="menu-item"><a href="https://www.growthinstitute.com/cookie-policy/">Cookie Policy</a></li>
+							<li class="menu-item"><a href="https://www.growthinstitute.com/terms-of-use/">Terms of Use</a></li>
+							<li class="menu-item"><a href="https://itunes.apple.com/us/app/growth-institute/id867925573?mt=8">Download the iPad App</a></li>
 						</ul>
 					</nav>
 
 					<nav class="social-links">
 						<ul class="menu">
-							<li class="menu-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li class="menu-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li class="menu-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li class="menu-item"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+							<li class="menu-item"><a href="https://twitter.com/ScaleUpWithGI" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li class="menu-item"><a href="https://www.facebook.com/GrowthInstitute" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li class="menu-item"><a href="https://www.linkedin.com/school/growth-institute/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li class="menu-item"><a href="https://www.youtube.com/user/GrowthInstitute" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -35,7 +36,7 @@
 				</div>
 				<div class="col col-4 col-md-4">
 					<div class="copyright">
-						<p>© COPYRIGHT 2017. GAZELLES GROWTH INSTITUTE CRAFTED WITH  IN AUSTIN AND MEXICO CITY</p>
+						<p>© COPYRIGHT <?php echo date('Y'); ?>. GAZELLES GROWTH INSTITUTE CRAFTED WITH <i class="fa fa-heart"></i> IN AUSTIN AND MEXICO CITY</p>
 						<p>
 							<img src="<?php $site->img('template/advanced-logo.png'); ?>" alt="AdvancED">
 							<img src="<?php $site->img('template/capital-factory-logo.png'); ?>" alt="Capital Factory">
