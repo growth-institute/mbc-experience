@@ -59,8 +59,6 @@ App = Class.extend({
 			prev: '.button-prev',
 			next: '.button-next'
 		});
-
-
 	},
 	errorString: function(str) {
 		return str;
