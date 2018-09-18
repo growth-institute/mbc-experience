@@ -234,7 +234,7 @@
 					<p class="text-center">
 						<img class="img-responsive" src="<%= block.metas.meeting_image %>">
 					</p>
-					<p class="text-center"><a href="<%= block.metas.meeting_link %>" target="_blank" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Click here to join the call</a></p>
+					<p class="text-center"><a href="http://suc-call.com/" target="_blank" class="button button-primary"><i class="fa fa-fw fa-user-circle-o"></i> Click here to join the call</a></p>
 				</div>
 			</div>
 		</script>
