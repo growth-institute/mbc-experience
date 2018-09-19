@@ -25,7 +25,9 @@
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
-												<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w3.png'); ?>" alt="Growth Institute">
+												<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
+													<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w3.png'); ?>" alt="Growth Institute">
+												</a>	
 											</div>
 										</div>
 									</div>
@@ -129,6 +131,7 @@
 								<li>14</li>
 								<li>15</li>
 								<li>16</li>
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
 								<li class="active">Week 3</li>
 								<li class="active">17</li>
 								<li class="active"> My call w/ Erik 2pm CST 18</li>
@@ -137,6 +140,7 @@
 								<li class="active">21</li>
 								<li class="active">22</li>
 								<li class="active">23</li>
+								</a>
 								<li>Week 4</li>
 								<li>Community check-in 11am CST 24</li>
 								<li>25</li>
