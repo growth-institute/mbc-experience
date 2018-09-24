@@ -27,7 +27,7 @@
 											<div class="col col-6 col-md-6 hide-mobile">
 												<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
 													<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w3.png'); ?>" alt="Growth Institute">
-												</a>	
+												</a>
 											</div>
 										</div>
 									</div>
@@ -84,7 +84,7 @@
 								</div>
 							</div>
 							<div class="col col-6 col-md-6">
-							<div class="month">      
+							<div class="month">
 								<ul>
 									<!-- <li class="prev">&#10094;</li>
 									<li class="next">&#10095;</li> -->
@@ -106,7 +106,7 @@
 								<li>Su</li>
 								</ul>
 
-								<ul class="days"> 
+								<ul class="days">
 								<li></li>
 								<li></li>
 								<li></li>
@@ -131,24 +131,24 @@
 								<li>14</li>
 								<li>15</li>
 								<li>16</li>
-								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
-								<li class="active">Week 3</li>
-								<li class="active">17</li>
-								<li class="active"> My call w/ Erik 2pm CST 18</li>
-								<li class="active">19</li>
-								<li class="active">20</li>
-								<li class="active">21</li>
-								<li class="active">22</li>
-								<li class="active">23</li>
+								<li>Week 3</li>
+								<li>17</li>
+								<li> My call w/ Erik 2pm CST 18</li>
+								<li>19</li>
+								<li>20</li>
+								<li>21</li>
+								<li>22</li>
+								<li>23</li>
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+								<li class="active">Week 4</li>
+								<li class="active">24</li>
+								<li class="active">25</li>
+								<li class="active">Community check-in 11am CST 26</li>
+								<li class="active">27</li>
+								<li class="active">28</li>
+								<li class="active">29</li>
+								<li class="active">30</li>
 								</a>
-								<li>Week 4</li>
-								<li>Community check-in 11am CST 24</li>
-								<li>25</li>
-								<li>26</li>
-								<li>27</li>
-								<li>28</li>
-								<li>29</li>
-								<li>30</li>
 								<li></li>
 								</ul>
 								<!-- <img class="img-responsive margin-bottom" src="<?php $site->img('template/mbc/suc-calendar-w3.png'); ?>" alt="Growth Institute"> -->
