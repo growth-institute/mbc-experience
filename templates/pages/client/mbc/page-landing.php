@@ -64,16 +64,16 @@
 												</div>
 											</a>
 
-											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
-												<div class="item item-module activeli">
+											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
+												<div class="item item-module">
 													<div class="item-name">
 														WEEK 3 - ENGAGE
 													</div>
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
-												<div class="item item-module">
+											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 4 - IMPLEMENT
 													</div>
@@ -140,14 +140,14 @@
 								<li>22</li>
 								<li>23</li>
 								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
-								<li class="active">Week 4</li>
-								<li class="active">24</li>
-								<li class="active">25</li>
-								<li class="active">Community check-in 11am CST 26</li>
-								<li class="active">27</li>
-								<li class="active">28</li>
-								<li class="active">29</li>
-								<li class="active">30</li>
+									<li class="active">Week 4</li>
+									<li class="active">24</li>
+									<li class="active">25</li>
+									<li class="active">Community check-in 11am CST 26</li>
+									<li class="active">27</li>
+									<li class="active">28</li>
+									<li class="active">29</li>
+									<li class="active">30</li>
 								</a>
 								<li></li>
 								</ul>
