@@ -23,7 +23,7 @@
 			$response = $site->getResponse();
 			#
 			//if(get_item($_GET, 'session')) print_a($_SESSION);
-			if ($_GET == 'session') {
+			if (isset($_GET['session'])) {
 				print_a($_SESSION);
 			}
 
