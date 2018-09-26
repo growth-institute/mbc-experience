@@ -22,6 +22,8 @@
 			$request = $site->getRequest();
 			$response = $site->getResponse();
 			#
+			if(get_item($_GET, 'session')) print_a($_SESSION);
+
 			$product = Products::getBySlug($id);
 			if ($product && $product->type == 'MBC' && $product->status == 'Published') {
 				# Fetch taxonomies
