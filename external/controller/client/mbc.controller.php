@@ -22,9 +22,9 @@
 			$request = $site->getRequest();
 			$response = $site->getResponse();
 			#
-			//if(get_item($_GET, 'session')) print_a($_SESSION);
 			if (isset($_GET['session'])) {
 				print_a($_SESSION);
+				print_a($site->user);
 				echo 'testing session';
 			}
 
