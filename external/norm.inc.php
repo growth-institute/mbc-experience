@@ -136,6 +136,7 @@
 
 			try {
 				$sql = "SELECT COUNT(*) AS total FROM {$table} WHERE {$conditions};";
+				log_to_file($sql, "events-{$site->user->id}");
 				$stmt = $dbh->prepare($sql);
 				$stmt->execute();
 				$row = $stmt->fetch();
