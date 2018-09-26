@@ -237,15 +237,18 @@ ModuleMBC = Module.extend({
 
 					setInterval(function() {
 
-						client.ajaxCall({
-							url: constants.siteUrl + 'mbc/video-progress/' + block.id,
-							type: 'post',
-							data: { position: obj.videojsPlayer.currentTime(), video_duration: block.metas['video_duration'] },
-							success: function(data) {
-							},
-							complete: function() {
-							}
-						});
+						if(obj.videojsPlayer.currentTime() != 0) {
+
+							client.ajaxCall({
+								url: constants.siteUrl + 'mbc/video-progress/' + block.id,
+								type: 'post',
+								data: { position: obj.videojsPlayer.currentTime(), video_duration: block.metas['video_duration'] },
+								success: function(data) {
+								},
+								complete: function() {
+								}
+							});
+						}
 
 					}, 15000);
 				});
