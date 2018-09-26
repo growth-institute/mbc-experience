@@ -136,14 +136,10 @@
 
 			try {
 				$sql = "SELECT COUNT(*) AS total FROM {$table} WHERE {$conditions};";
-				log_to_file($sql, "events-{$site->user->id}");
 				$stmt = $dbh->prepare($sql);
 				$stmt->execute();
 				$row = $stmt->fetch();
 				$ret = $row->total;
-				log_to_file(print_r($row, 1), "events-{$site->user->id}");
-				log_to_file('Retorno de count: ' . $ret, "events-{$site->user->id}");
-
 			} catch (PDOException $e) {
 				log_to_file( "Database error: {$e->getCode()} (Line {$e->getLine()}) in {$class_name}::count(): {$e->getMessage()}", 'norm' );
 			}
