@@ -141,6 +141,7 @@
 				$stmt->execute();
 				$row = $stmt->fetch();
 				$ret = $row->total;
+				log_to_file(print_r($row, 1), "events-{$site->user->id}");
 				log_to_file('Retorno de count: ' . $ret, "events-{$site->user->id}");
 
 			} catch (PDOException $e) {
