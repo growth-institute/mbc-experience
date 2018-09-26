@@ -41,7 +41,7 @@
 				$params['instance'] = "{$site->sid}_mbc_view_{$product->id}";
 				$params['param_a'] = $site->sid;
 				$params['param_b'] = $product->id;
-				Events::logEvent(1, $params);
+				Events::logEvent($site->user->id, $params);
 				# Render template
 				$data = [];
 				$data['product'] = $product;
@@ -88,7 +88,7 @@
 					$params['instance'] = "{$site->sid}_mbc_module_{$taxonomy->id}";
 					$params['param_a'] = $site->sid;
 					$params['param_b'] = $taxonomy->id;
-					Events::logEvent(1, $params);
+					Events::logEvent($site->user->id, $params);
 					#
 					$data = [];
 					$data['module_completion'] = $taxonomy->getCompletion(1); #TBD: TBD_SET_USER
@@ -129,7 +129,7 @@
 					$params['instance'] = "{$site->sid}_mbc_session_{$taxonomy->id}";
 					$params['param_a'] = $site->sid;
 					$params['param_b'] = $taxonomy->id;
-					Events::logEvent(1, $params);
+					Events::logEvent($site->user->id, $params);
 					#
 					$data = [];
 					$data['taxonomy'] = $taxonomy;
@@ -190,7 +190,7 @@
 						$event->value_b = $params['value_b'];
 						$event->save();
 					} else {
-						Events::logEvent(1, $params);
+						Events::logEvent($site->user->id, $params);
 					}
 					#
 					$data = [];
@@ -236,7 +236,7 @@
 							$params['instance'] = "mbc_attachment_{$block->id}_{$attachment->id}";
 							$params['param_a'] = $block->id;
 							$params['param_b'] = $attachment->id;
-							Events::logEvent(1, $params);
+							Events::logEvent($site->user->id, $params);
 							//
 							$conditions = "event = 'attachment' AND category = 'mbc' AND param_a = {$block->id}";
 							$downloaded = Events::count($conditions);
@@ -319,7 +319,7 @@
 						$params['param_b'] = $id;
 						$params['value_b'] = $completion ? 100 : 0;
 
-						Events::logEvent(1, $params);
+						Events::logEvent($site->user->id, $params);
 					}
 
 					$data = [];

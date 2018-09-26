@@ -101,10 +101,6 @@
 		Users::init();
 		Users::checkLogin();
 		$site->user = Users::getCurrentUser();
-		// $locale = $site->user ? $site->user->getMeta('locale') : null;
-		// if ($locale) {
-		// 	$i18n->setLocale($locale);
-		// }
 	} else {
 		$site->user = null;
 	}
