@@ -92,6 +92,7 @@
 		protected static $plural_class_name = 		'Events';
 
 		public static function logEvent($id_user, $params) {
+			global $site;
 			$ret = false;
 			# Get parameters
 			$event = get_item($params, 'event');
@@ -108,8 +109,9 @@
 			$conditions = "id_user = {$id_user} AND instance = '{$instance}'";
 			$count = Events::count($conditions);
 
-			log_to_file('EVENTO GUARDADO', 'events');
-			log_to_file(print_r($params, 1), 'events');
+			log_to_file('EVENTO GUARDADO', "events-{$site->user->id}");
+			log_to_file(print_r($params, 1), "events-{$site->user->id}");
+			log_to_file(print_r($count, 1), "events-{$site->user->id}");
 
 			if ($count == 0) {
 				# Create new event object
