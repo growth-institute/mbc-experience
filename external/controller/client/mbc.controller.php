@@ -25,6 +25,7 @@
 			//if(get_item($_GET, 'session')) print_a($_SESSION);
 			if (isset($_GET['session'])) {
 				print_a($_SESSION);
+				echo 'testing session';
 			}
 
 			$product = Products::getBySlug($id);
