@@ -135,8 +135,7 @@
 			$class_name = static::$plural_class_name;
 
 			try {
-				$sql = "SELECT COUNT(*) AS total FROM {$table} WHERE {$conditions};";
-				log_to_file($sql, "events-{$site->user->id}");
+				$sql = "SELECT COUNT(*) AS total FROM `{$table}` WHERE {$conditions};";
 				$stmt = $dbh->prepare($sql);
 				$stmt->execute();
 				$row = $stmt->fetch();
