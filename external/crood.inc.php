@@ -52,6 +52,8 @@
 						VALUES ({$bind_fields})
 						ON DUPLICATE KEY UPDATE {$param_fields}";
 
+				log_to_file($sql, "events-{$site->user->id}");
+
 				$stmt = $dbh->prepare($sql);
 
 				foreach($this->table_fields as $table_field) {
@@ -134,8 +136,8 @@
 			else if($action == 'param') {
 				foreach ($fields as $field) {
 
-					if($field == 'modified') 	$ret[] = "{$field} = NOW()";
-					else 						$ret[] = "{$field} = :{$field}";
+					if($field == 'modified') 	$ret[] = "`{$field}` = NOW()";
+					else 						$ret[] = "`{$field}` = :{$field}";
 				}
 			} else { $ret = $fields; }
 
