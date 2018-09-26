@@ -107,6 +107,10 @@
 			# Check whether the event exists or not
 			$conditions = "id_user = {$id_user} AND instance = '{$instance}'";
 			$count = Events::count($conditions);
+
+			log_to_file('EVENTO GUARDADO', 'events');
+			log_to_file(print_r($params, 1), 'events');
+
 			if ($count == 0) {
 				# Create new event object
 				$event_obj = new Event();
