@@ -143,7 +143,7 @@
 									<li class="active">Week 4</li>
 									<li class="active">24</li>
 									<li class="active">25</li>
-									<li class="active">Community check-in 11am CST 26</li>
+									<li class="active">26 Community check-in 11am CST</li>
 									<li class="active">27</li>
 									<li class="active">28</li>
 									<li class="active">29</li>
