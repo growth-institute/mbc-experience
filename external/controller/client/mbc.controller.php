@@ -288,11 +288,13 @@
 			if($request->type == 'post') {
 
 				$video_duration = $request->post('video_duration');
+				$video_duration = explode(':', $video_duration);
+				$seconds = ($video_duration[0]*3600) + ($video_duration[1]*60) + $video_duration[2];
 				$position = $request->post('position');
-				$percent = $video_duration ? $position * 100 / $video_duration : 0;
+				$percent = $seconds ? $position * 100 / $seconds : 0;
 				$completion = $percent >= 90;
 
-				if($video_duration && $position) {
+				if($seconds && $position) {
 
 					$event_params = [];
 					$event_params['conditions'] = "instance = '{$site->sid}_mbc_block_{$id}' AND id_user = 1"; #TBD: TBD_SET_USER2
