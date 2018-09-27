@@ -101,6 +101,11 @@
 		Users::init();
 		Users::checkLogin();
 		$site->user = Users::getCurrentUser();
+		if (PROFILE == "development") {
+			$user = new User();
+			$user->id = 1;
+			$site->user = $user;
+		}
 	} else {
 		$site->user = null;
 	}
