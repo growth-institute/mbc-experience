@@ -228,7 +228,7 @@ ModuleMBC = Module.extend({
 
 				obj.videojsPlayer = videojs('block-video' + videoId, {
 					'sources': [{ 'src': videoLink }],
-					'playbackRates': [ 0.25, 0.5, 1, 2 ]
+					'playbackRates': [ 0.25, 0.5, 1, 1.5, 2 ]
 				});
 
 				obj.videojsPlayer.ready(function() {
