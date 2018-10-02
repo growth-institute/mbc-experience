@@ -11,7 +11,7 @@
 							<div class="col col-12 col-md-12">
 								<div class="metabox">
 									<div class="metabox-header">
-										<span>THIS MONTH - Modern Leadership with Erik Qualman</span>
+										<span>THIS MONTH - KAIZEN: BACK TO THE BASICS WITH HILARY CORNA</span>
 									</div>
 									<div class="metabox-body">
 										<div class="row row-md">
@@ -20,8 +20,8 @@
 											</div>
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
-													<h2>LEADERSHIP / LEARN</h2>
-													<p>This first week is all about learning a few simple concepts that will make you a more effective leader in the digital age. We’ve broken up Erik’s seminar into a micro-learning format centered around his 5 key habits: Simple, True, Act, Map and People. Watch or listen - however you think you’ll learn best - and make notes as you go along to help shape your implementation plan next week.</p>
+													<h2>EXECUTION / LEARN</h2>
+													<p>This first week is all about learning the basics of the kaizen process and considering how it may improve operations in your own company. We’ve broken up Hilary’s seminar into a micro-learning format that covers the basics of kaizen, where it's appropriate and who should be responsible. Watch or listen - however you think you’ll learn best - and make notes as you go along to help shape your implementation plan next week.</p>
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
@@ -89,8 +89,8 @@
 									<!-- <li class="prev">&#10094;</li>
 									<li class="next">&#10095;</li> -->
 									<li>
-									LEADERSHIP MONTH<br>
-									<span style="font-size:18px">Modern Leadership - Erik Qualman</span>
+									EXECUTION MONTH<br>
+									<span style="font-size:18px">KAIZEN: BACK TO THE BASICS WITH HILARY CORNA</span>
 									</li>
 								</ul>
 								</div>
@@ -113,41 +113,41 @@
 								<li></li>
 								<li></li>
 								<li></li>
+								<li></li>
+								<li>30</li>
+								<li>Week 1</li>
 								<li>1</li>
 								<li>2</li>
-								<li>Week 1</li>
 								<li>3</li>
 								<li>4</li>
 								<li>5</li>
 								<li>6</li>
 								<li>7</li>
+								<li>Week 2</li>
 								<li>8</li>
 								<li>9</li>
-								<li>Week 2</li>
 								<li>10</li>
 								<li>11</li>
 								<li>12</li>
 								<li>13</li>
 								<li>14</li>
-								<li>15</li>
-								<li>16</li>
 								<li>Week 3</li>
+								<li>15 My call w/ Hilary, 6pm EST</li>
+								<li>16</li>
 								<li>17</li>
-								<li> My call w/ Erik 2pm CST 18</li>
+								<li>18</li>
 								<li>19</li>
 								<li>20</li>
 								<li>21</li>
-								<li>22</li>
-								<li>23</li>
 								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
 									<li class="active">Week 4</li>
-									<li class="active">24</li>
+									<li class="active">22</li>
+									<li class="active">23</li>
+									<li class="active">24 Community call, 9am EST</li>
 									<li class="active">25</li>
-									<li class="active">26 Community check-in 11am CST</li>
+									<li class="active">26</li>
 									<li class="active">27</li>
 									<li class="active">28</li>
-									<li class="active">29</li>
-									<li class="active">30</li>
 								</a>
 								<li></li>
 								</ul>
