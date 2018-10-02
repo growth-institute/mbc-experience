@@ -16,7 +16,7 @@
 									<div class="metabox-body">
 										<div class="row row-md">
 											<div class="col col-6 col-md-6 show-mobile">
-												<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w3.png'); ?>" alt="Growth Institute">
+												<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w1-m2.png'); ?>" alt="Growth Institute">
 											</div>
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
@@ -26,7 +26,7 @@
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
 												<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
-													<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w4.png'); ?>" alt="Growth Institute">
+													<img class="img-responsive" src="<?php $site->img('template/mbc/suc-banner-w1-m2.png'); ?>" alt="Growth Institute">
 												</a>
 											</div>
 										</div>
