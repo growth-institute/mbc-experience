@@ -83,12 +83,13 @@
 			$ret = false;
 			$children_cache = $this->getMeta('children_cache');
 			# Step 1: Check how many of the taxonomies (modules & sessions) have been clicked at least once
-			$total_tax = count( $children_cache['taxonomy'] );
-
+			$children_cache_taxonomy = isset($children_cache['taxonomy']) ? $children_cache['taxonomy'] : false;
+			$children_cache_block = isset($children_cache['block']) ? $children_cache['block'] : false;
+			$total_tax = $children_cache_taxonomy ? count( $children_cache_taxonomy ) : 0;
 
 			$complete_tax = 0;
 			try {
-				$tax_ids = implode(',', $children_cache['taxonomy']);
+				$tax_ids = implode(',', $children_cache_taxonomy);
 				$sql = "SELECT COUNT(count) AS count, SUM(count) AS sum FROM (
 							SELECT COUNT(id) AS count FROM v3_event WHERE category = 'mbc' AND event IN ('module', 'session') AND param_b IN ($tax_ids) AND id_user = :id_user
 						) foo";
@@ -103,10 +104,10 @@
 				error_log( $e->getMessage() );
 			}
 			# Step 2: Check how many of the blocks (steps) have been completed (that is, its value_b is equal to 100)
-			$total_blk = count( $children_cache['block'] );
+			$total_blk = count( $children_cache_block );
 			$complete_blk = 0;
 			try {
-				$blk_ids = implode(',', $children_cache['block']);
+				$blk_ids = implode(',', $children_cache_block);
 				$sql = "SELECT COUNT(count) AS count, SUM(count) AS sum FROM (
 							SELECT COUNT(id) AS count FROM v3_event WHERE category = 'mbc' AND event = 'block' AND param_b IN ($blk_ids) AND value_b = 100 AND id_user = :id_user
 						) foo";

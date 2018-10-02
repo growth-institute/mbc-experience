@@ -48,8 +48,8 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-learn", true); ?>">
-												<div class="item item-module">
+											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-learn", true); ?>">
+												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 1 - LEARN
 													</div>
@@ -72,8 +72,8 @@
 												</div>
 											</a>
 
-											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
-												<div class="item item-module activeli">
+											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+												<div class="item item-module">
 													<div class="item-name">
 														WEEK 4 - IMPLEMENT
 													</div>
@@ -115,14 +115,16 @@
 								<li></li>
 								<li></li>
 								<li>30</li>
-								<li>Week 1</li>
-								<li>1</li>
-								<li>2</li>
-								<li>3</li>
-								<li>4</li>
-								<li>5</li>
-								<li>6</li>
-								<li>7</li>
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+									<li class="active">Week 1</li>
+									<li class="active">1</li>
+									<li class="active">2</li>
+									<li class="active">3</li>
+									<li class="active">4</li>
+									<li class="active">5</li>
+									<li class="active">6</li>
+									<li class="active">7</li>
+								</a>
 								<li>Week 2</li>
 								<li>8</li>
 								<li>9</li>
@@ -139,16 +141,14 @@
 								<li>19</li>
 								<li>20</li>
 								<li>21</li>
-								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
-									<li class="active">Week 4</li>
-									<li class="active">22</li>
-									<li class="active">23</li>
-									<li class="active">24 Community call, 9am EST</li>
-									<li class="active">25</li>
-									<li class="active">26</li>
-									<li class="active">27</li>
-									<li class="active">28</li>
-								</a>
+								<li>Week 4</li>
+								<li>22</li>
+								<li>23</li>
+								<li>24 Community call, 9am EST</li>
+								<li>25</li>
+								<li>26</li>
+								<li>27</li>
+								<li>28</li>
 								<li></li>
 								</ul>
 								<!-- <img class="img-responsive margin-bottom" src="<?php $site->img('template/mbc/suc-calendar-w3.png'); ?>" alt="Growth Institute"> -->

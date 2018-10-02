@@ -5,7 +5,8 @@
 						<div class="col col-6 col-md-6">
 							<h2 class="bar-title">
 								<a href="<?php $site->urlTo("/mbc/{$product->slug}", true); ?>" class="action-button button-back"><i class="fa fa-fw fa-home"></i></a>
-								<span>Scaling Up Club - Beta</span>
+								<?php $title_product = $product->getMeta('title_product'); ?>
+								<span><?php echo $title_product; ?></span>
 							</h2>
 						</div>
 						<div class="col col-6 col-md-6">
