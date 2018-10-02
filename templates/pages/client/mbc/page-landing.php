@@ -48,7 +48,7 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-learn", true); ?>">
+											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
 												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 1 - LEARN
@@ -56,7 +56,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-plan", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-plan", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 2 - PLAN
@@ -64,7 +64,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-engage", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 3 - ENGAGE
@@ -72,7 +72,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 4 - IMPLEMENT
@@ -115,7 +115,7 @@
 								<li></li>
 								<li></li>
 								<li>30</li>
-								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-founding-members-implement", true); ?>">
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
 									<li class="active">Week 1</li>
 									<li class="active">1</li>
 									<li class="active">2</li>
