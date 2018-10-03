@@ -48,7 +48,7 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
+											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
 												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 1 - LEARN
@@ -56,7 +56,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-plan", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-plan", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 2 - PLAN
@@ -64,7 +64,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 3 - ENGAGE
@@ -72,7 +72,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 4 - IMPLEMENT
@@ -93,7 +93,7 @@
 									<span style="font-size:18px">KAIZEN: BACK TO THE BASICS WITH HILARY CORNA</span>
 									</li>
 								</ul>
-								</div>
+							</div>
 
 								<ul class="weekdays">
 								<li></li>
@@ -249,6 +249,7 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
 	<?php $this->partial('footer'); ?>
 <?php $this->partial('footer-html'); ?>

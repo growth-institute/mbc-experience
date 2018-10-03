@@ -19,7 +19,7 @@
 							<div class="question">
 								<h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 								<div class="question-answer">
-									<p>See the Seminar <a href="<?php $site->urlTo("/mbc/{$product->slug}", true); ?>" class="button button-primary">here<i class="fa fa-fw fa-angle-right button-right"></i></a></p>
+									<p>See the Seminar <a href="<?php $site->urlTo("/mbc/scaling-up-club-founding-members/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>" class="button button-primary">here<i class="fa fa-fw fa-angle-right button-right"></i></a></p>
 								</div>
 							</div>
 							<div class="question">
