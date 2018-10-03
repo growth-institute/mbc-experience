@@ -28,6 +28,7 @@
 								<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 							</div>
 						</div>
+						<br>
 						<div class="list-questions">
 
 							<div class="question">
