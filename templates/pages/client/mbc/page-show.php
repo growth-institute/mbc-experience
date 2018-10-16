@@ -4,7 +4,7 @@
 		<section class="section section-mbc">
 			<?php
 			$dashboard = $product->getMeta('hide_dashboard');
-			if ($dashboard == '0') {
+			if ($dashboard == '1') {
 
 				$this->partial('mbc/navigation', ['product' => $product, 'title' => 'Dashboard', 'url' => $site->urlTo("/mbc/{$product->slug}/") ]);
 			}

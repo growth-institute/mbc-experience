@@ -48,8 +48,8 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
-												<div class="item item-module activeli">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
+												<div class="item item-module">
 													<div class="item-name">
 														WEEK 1 - LEARN
 													</div>
@@ -64,8 +64,8 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
-												<div class="item item-module">
+											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
+												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 3 - ENGAGE
 													</div>
@@ -115,16 +115,14 @@
 								<li></li>
 								<li></li>
 								<li>30</li>
-								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
-									<li class="active">Week 1</li>
-									<li class="active">1</li>
-									<li class="active">2</li>
-									<li class="active">3</li>
-									<li class="active">4</li>
-									<li class="active">5</li>
-									<li class="active">6</li>
-									<li class="active">7</li>
-								</a>
+								<li>Week 1</li>
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>6</li>
+								<li>7</li>
 								<li>Week 2</li>
 								<li>8</li>
 								<li>9</li>
@@ -133,14 +131,16 @@
 								<li>12</li>
 								<li>13</li>
 								<li>14</li>
-								<li>Week 3</li>
-								<li>15 My call w/ Hilary, 6pm EST</li>
-								<li>16</li>
-								<li>17</li>
-								<li>18</li>
-								<li>19</li>
-								<li>20</li>
-								<li>21</li>
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
+									<li class="active">Week 3</li>
+									<li class="active">15 My call w/ Hilary, 6pm EST</li>
+									<li class="active">16</li>
+									<li class="active">17</li>
+									<li class="active">18</li>
+									<li class="active">19</li>
+									<li class="active">20</li>
+									<li class="active">21</li>
+								</a>
 								<li>Week 4</li>
 								<li>22</li>
 								<li>23</li>
