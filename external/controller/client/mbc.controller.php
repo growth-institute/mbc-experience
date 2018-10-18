@@ -337,7 +337,7 @@
 		}
 
 		function surveygizmoProgressAction() {
-			$surveygizmo = $request->post('surveygizmo');
+			$response = $request->post('response');
 		}
 	}
 ?>
