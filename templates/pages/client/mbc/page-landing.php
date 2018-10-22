@@ -140,15 +140,15 @@
 								<li>20</li>
 								<li>21</li>
 								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
-									<li <class class="active"></class>>Week 4</li>
-									<li <class class="active"></class>>22</li>
-									<li <class class="active"></class>>23</li>
-									<li <class class="active"></class>>24 Community call, 9am EST</li>
-									<li <class class="active"></class>>25</li>
-									<li <class class="active"></class>>26</li>
-									<li <class class="active"></class>>27</li>
-									<li <class class="active"></class>>28</li>
-									<li <class class="active"></class>></li>
+									<li <class class="active">Week 4</li>
+									<li <class class="active">22</li>
+									<li <class class="active">23</li>
+									<li <class class="active">24 Community call, 9am EST</li>
+									<li <class class="active">25</li>
+									<li <class class="active">26</li>
+									<li <class class="active">27</li>
+									<li <class class="active">28</li>
+									<li <class class="active"></li>
 								</a>
 								</ul>
 								<!-- <img class="img-responsive margin-bottom" src="<?php $site->img('template/mbc/suc-calendar-w3.png'); ?>" alt="Growth Institute"> -->
