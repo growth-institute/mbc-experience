@@ -11,7 +11,7 @@
 							<div class="col col-12 col-md-12">
 								<div class="metabox">
 									<div class="metabox-header">
-										<span>THIS MONTH - KAIZEN: BACK TO THE BASICS WITH HILARY CORNA</span>
+										<span>THIS MONTH - EVOLVED ENTERPRISE WITH YANIK SILVER</span>
 									</div>
 									<div class="metabox-body">
 										<div class="row row-md">
@@ -21,7 +21,7 @@
 											<div class="col col-6 col-md-6">
 												<div class="the-content">
 													<h2>EXECUTION / LEARN</h2>
-													<p>This first week is all about learning the basics of the kaizen process and considering how it may improve operations in your own company. We’ve broken up Hilary’s seminar into a micro-learning format that covers the basics of kaizen, where it's appropriate and who should be responsible. Watch or listen - however you think you’ll learn best - and make notes as you go along to help shape your implementation plan next week.</p>
+													<p>We’ve broken up Yanik’s seminar into a micro-learning format that teaches you how to highlight and build consensus around your core impact, and create a company with a greater purpose than profits. Watch or listen - however you think you’ll learn best - and make notes as you go along to help shape your implementation plan next week.</p>
 												</div>
 											</div>
 											<div class="col col-6 col-md-6 hide-mobile">
@@ -48,15 +48,15 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-learn", true); ?>">
-												<div class="item item-module">
+											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-learn", true); ?>">
+												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 1 - LEARN
 													</div>
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-plan", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-plan", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 2 - PLAN
@@ -64,7 +64,7 @@
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-engage", true); ?>">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise", true); ?>">
 												<div class="item item-module">
 													<div class="item-name">
 														WEEK 3 - ENGAGE
@@ -72,8 +72,8 @@
 												</div>
 											</a>
 
-											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-kaizen-back-to-the-basics/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
-												<div class="item item-module activeli">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-implement", true); ?>">
+												<div class="item item-module">
 													<div class="item-name">
 														WEEK 4 - IMPLEMENT
 													</div>
@@ -90,7 +90,7 @@
 									<li class="next">&#10095;</li> -->
 									<li>
 									EXECUTION MONTH<br>
-									<span style="font-size:18px">KAIZEN: BACK TO THE BASICS WITH HILARY CORNA</span>
+									<span style="font-size:18px">YANIK SILVER: EVOLVED ENTERPRISE</span>
 									</li>
 								</ul>
 							</div>
@@ -109,47 +109,47 @@
 								<ul class="days">
 								<li></li>
 								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
 								<li>30</li>
-								<li>Week 1</li>
+								<li>31</li>
 								<li>1</li>
 								<li>2</li>
 								<li>3</li>
 								<li>4</li>
+								<li>Week 1</li>
 								<li>5</li>
 								<li>6</li>
 								<li>7</li>
-								<li>Week 2</li>
 								<li>8</li>
 								<li>9</li>
 								<li>10</li>
 								<li>11</li>
+								<li>Week 2</li>
 								<li>12</li>
 								<li>13</li>
 								<li>14</li>
-								<li>Week 3</li>
-								<li>15 My call w/ Hilary, 6pm EST</li>
+								<li>15</li>
 								<li>16</li>
 								<li>17</li>
 								<li>18</li>
-								<li>19</li>
+								<li>Week 3</li>
+								<li>19T</li>
 								<li>20</li>
 								<li>21</li>
-								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>">
-									<li <class class="active">Week 4</li>
-									<li <class class="active">22</li>
-									<li <class class="active">23</li>
-									<li <class class="active">24 Community call, 9am EST</li>
-									<li <class class="active">25</li>
-									<li <class class="active">26</li>
-									<li <class class="active">27</li>
-									<li <class class="active">28</li>
-									<li <class class="active"></li>
-								</a>
+								<li>22</li>
+								<li>23</li>
+								<li>24</li>
+								<li>25</li>
+								<!-- <a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-kaizen-back-to-the-basics-implement", true); ?>"> -->
+									<li>Week 4</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li>30</li>
+									<li></li>
+									<li></li>
+									<li></li>
+								<!-- </a> -->
 								</ul>
 								<!-- <img class="img-responsive margin-bottom" src="<?php $site->img('template/mbc/suc-calendar-w3.png'); ?>" alt="Growth Institute"> -->
 							</div>

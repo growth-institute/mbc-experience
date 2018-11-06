@@ -13,6 +13,24 @@
 						</div>
 						<div class="list-questions">
 							<div class="question">
+								<h4 class="js-question question-title"> November 2018 - Evolved Enterprise with Yanik Silver<span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+								<div class="question-answer">
+									<p>This first week is all about learning a few simple concepts that will make you a more effective leader in the digital age.</p>
+								</div>
+							</div>
+							<div class="question">
+								<h4 class="js-question question-title"> Seminar <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+								<div class="question-answer">
+									<p>See the Seminar <a href="<?php $site->urlTo("/mbc/scaling-up-clubyanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-learn", true); ?>" class="button button-primary">here<i class="fa fa-fw fa-angle-right button-right"></i></a></p>
+								</div>
+							</div>
+							<div class="question">
+								<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+							</div>
+						</div>
+						<br>
+						<div class="list-questions">
+							<div class="question">
 								<h4 class="js-question question-title"> October 2018 - Kaizen: Back to the basics with Hilary Corna <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
 								<div class="question-answer">
 									<p>This first week is all about learning a few simple concepts that will make you a more effective leader in the digital age.</p>
