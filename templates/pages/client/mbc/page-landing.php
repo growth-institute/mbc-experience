@@ -48,16 +48,16 @@
 									</div>
 									<div class="metabox-body body-simple">
 										<div class="item-list">
-											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-learn", true); ?>">
-												<div class="item item-module activeli">
+											<a href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-learn", true); ?>">
+												<div class="item item-module">
 													<div class="item-name">
 														WEEK 1 - LEARN
 													</div>
 												</div>
 											</a>
 
-											<a href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-plan", true); ?>">
-												<div class="item item-module">
+											<a class="active" href="<?php $site->urlTo("/mbc/scaling-up-club-yanik-silver-evolved-enterprise/course#scaling-up-club-yanik-silver-evolved-enterprise-plan", true); ?>">
+												<div class="item item-module activeli">
 													<div class="item-name">
 														WEEK 2 - PLAN
 													</div>
@@ -123,14 +123,16 @@
 								<li>9</li>
 								<li>10</li>
 								<li>11</li>
-								<li>Week 2</li>
-								<li>12</li>
-								<li>13</li>
-								<li>14</li>
-								<li>15</li>
-								<li>16</li>
-								<li>17</li>
-								<li>18</li>
+								<a class="active" href="<?php $site->urlTo("/mbc/{$product->slug}/course#scaling-up-club-yanik-silver-evolved-enterprise-plan", true); ?>">
+									<li class="active">Week 2</li>
+									<li class="active">12</li>
+									<li class="active">13</li>
+									<li class="active">14</li>
+									<li class="active">15</li>
+									<li class="active">16</li>
+									<li class="active">17</li>
+									<li class="active">18</li>
+								</a>
 								<li>Week 3</li>
 								<li>19T</li>
 								<li>20</li>
