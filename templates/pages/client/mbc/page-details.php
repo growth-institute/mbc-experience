@@ -26,6 +26,42 @@
 							</div>
 							<div class="question">
 								<h4 class="js-question question-title">Implementation Plans <span class="question-button button-right"><i class="fa fa-angle-right"></i></span><span class="question-button button-down"><i class="fa fa-angle-down"></i></span></h4>
+								<div class="question-answer">
+
+									<div class="implementation-plans">
+										<div class="slider">
+											<?php
+												$files = glob($site->baseDir('/upload/plans-yaniksilver/*.{pdf}'), GLOB_BRACE);
+											?>
+											<?php
+											if ($files):
+												foreach ($files as $file):
+													$file = basename($site->baseDir("/mbc-experience/upload/plans-yaniksilver/{$file}"));
+													/*print_a($file);*/
+											?>
+													<div class="slide">
+														<div class="embed-responsive">
+															<iframe src="<?php $site->urlTo("/upload/plans-yaniksilver/{$file}#zoom=100", true); ?>" frameborder="0">
+															</iframe>
+														</div>
+													</div>
+												<?php endforeach; ?>
+											<?php endif;?>
+										</div>
+										<div class="slider-navigation">
+											<div class="row row-md row-sm">
+												<div class="col col-sm-6">
+													<a href="#" class="button button-primary button-prev">Previous Plan</a>
+												</div>
+												<div class="col col-sm-6">
+													<p class="text-right">
+														<a href="#" class="button button-primary button-next">Next Plan</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<br>
